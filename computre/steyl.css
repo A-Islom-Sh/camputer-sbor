@@ -1,0 +1,450 @@
+body {
+    color: white;
+}
+
+.osnova{
+    background: url(./main-screen__bgc.png), lightgray 50% / cover no-repeat;
+    width: 1920px;
+    height: 900px;
+}
+.img_logo{
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+
+.a_log_in{
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    left: 1600px;
+    top: 45px;
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+.b_1{
+    font-size: 90px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    top: 200px;
+    position: absolute;
+    left: 100px;
+}
+.futer_osnova{
+    width: 1920px;
+    height: 120px;
+    top: 735px;
+    background: #121212;  
+    position: relative;
+}
+.curs_zakaz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    width: 230px;
+    height: 45px;
+    position: relative;
+    left: 300px;
+    top: 40px;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    background: var(--grad1, linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%));
+}
+.students_b{
+    width: 120px;
+    height: 30px;
+    color: gray;
+    font-family: 'Inter', sans-serif;
+    left: 650px;
+    position: relative;
+}
+.b_number{
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    left: 720px;
+    position: relative; 
+}
+/* .b_number2{
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    left: 930px;
+    position: relative; 
+} */
+.b_zarabotono{
+    width: 120px;
+    height: 30px;
+    color: gray;
+    font-family: 'Inter', sans-serif;
+    left: 850px;
+    top: -30px;
+    position: relative;   
+}
+.b_zarabotono2{
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    left: 880px;
+    top: -30px;
+    position: relative;   
+}
+.shkala{
+    width: 440px;
+    height: 6px;
+    background: var(--grad1, linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%));
+    left: 1090px;
+    top: -20px;
+    position: relative;
+}
+.shkala2{
+    width: 200px;
+    height: 6px;
+    background: white;   
+    left: 1530px;
+    top: -26px;
+    position: relative;
+}
+.shkala3{
+    color: gray;
+    position: relative;
+    left: 1090px ;
+    top: -20px;
+}
+.shkala4{
+    color: gray;
+    position: relative;
+    left: 1660px ;
+    top: -20px;
+}
+
+
+.time {
+    margin: 0 10px;
+    padding: 10px;
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.daun * {
+    padding: 0;
+    margin: 0;
+}
+
+.daun {
+    background: #121212;
+    width: 150px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  
+ 
+  
+  @keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0px 900px;
+    }
+  }
+  
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    top: 600px;
+    position: relative;
+    color: white;
+    right: 500px;
+    gap: 30px;
+}
+.label{
+    font-family: 'Inter', sans-serif;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    display: block;
+    padding: 10px 15px;
+    position: relative; 
+}
+.ul1{
+    top: 30px;
+    position: relative;
+    left: 350px;
+    font-family: 'Inter', sans-serif;
+}
+.ul2{
+    top: 30px;
+    position: relative;
+    left: 550px;
+    font-family: 'Inter', sans-serif;
+}
+.ul3{
+    top: 30px;
+    position: relative;
+    left: 750px;
+    font-family: 'Inter', sans-serif;
+}
+.ul4{
+    top: 30px;
+    position: relative;
+    left: 950px;
+    font-family: 'Inter', sans-serif;
+}
+
+.ul5{
+    top: 30px;
+    position: relative;
+    left: 1150px;
+    font-family: 'Inter', sans-serif;
+}
+.listen_1{
+    width: 526px;
+    height: 499px;
+    flex-shrink: 0;
+    border: 30px solid var(--grad2, #C89AFC);
+    position: relative;
+    top: 200px;
+    left: 312px;
+
+}
+.div_listen{
+    width: 1920px;
+    background: #000000;
+    height: 3000px;
+    top: 710px;
+    position: relative;
+    display: flex;
+}
+.img_comp{
+    top: 130px;
+    position: relative;
+    left: 10px;
+}
+.b_listen{
+    color: white;
+    top: -400px;
+    left: 800px;
+    font-size: 48px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+.b_lorem{
+    color: white;
+    top: -350px;
+    left: 800px;
+    font-size: 25px;
+    position: relative; 
+    font-family: 'Inter', sans-serif;
+}
+.icon_start{
+    left: -60px;
+    position: relative;
+}
+.b_fast{
+    font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; 
+font-family: 'Inter', sans-serif;
+top: -60px;
+position: relative;
+}
+.b_fast1{
+    position: relative;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: 'Inter', sans-serif;
+
+}
+.H100{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    font-family: 'Inter', sans-serif;
+    top: 220px;
+    left: -10px;
+    position: relative;
+
+}
+.chkola{
+    width: 324px;
+    height: 80px;
+    flex-shrink: 0;
+    background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
+    top: 250px;
+    position: relative;
+}
+.H110{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    font-family: 'Inter', sans-serif;
+    top: 220px;
+    left: 230px;
+    position: relative;
+
+}
+.chkola2{
+    width: 324px;
+    height: 60px;
+    flex-shrink: 0;
+    background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
+    top: 180px;
+    position: relative;
+    left: 324px;
+}
+.chkola3{
+    width: 324px;
+    height: 30px;
+    flex-shrink: 0;
+    background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
+    top: 135px;
+    position: relative;
+    left: 648px;
+}
+.H140{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    font-family: 'Inter', sans-serif;
+    top: 220px;
+    left: 470px;
+    position: relative;
+
+}
+.chkola4{
+    width: 324px;
+    height: 15px;
+    flex-shrink: 0;
+    background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
+    top: 113px;
+    position: relative;
+    left: 972px;
+}
+.H130{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    font-family: 'Inter', sans-serif;
+    top: 220px;
+    left: 720px;
+    position: relative;
+
+}
+.loreem{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: 'Inter', sans-serif;
+    position: relative; 
+    top: 200px;
+}
+.loreeem{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: 'Inter', sans-serif;
+    position: relative; 
+    top: 80px;
+    left: 325px;
+    
+}
+.loreeeem{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: 'Inter', sans-serif;
+    position: relative; 
+    top: -35px;
+    left: 650px;
+    
+}
+.loreeeeem{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-family: 'Inter', sans-serif;
+    position: relative; 
+    top: -155px;
+    left: 975px;
+    
+}
+.b_prof{
+  position: relative;
+  top: 50px;
+  font-size: 40px;
+  width: 100px;
+  right: 270px;
+}
+.icon_1{
+    position: relative;
+    top: 250px;
+   right: 1100px;
+}
+.have_profi{
+    width: 1920px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    
+}
+.icon_2{
+    position: relative;
+    top: 250px;
+   right: 800px;
+}
+.icon_3{
+    position: relative;
+    top: 250px;
+   right: 499px;
+}
